@@ -1,4 +1,4 @@
-# MedFi – Medical Records Management App
+# APTO CARE – Medical Records Management App
 
 *A decentralized medical‑records platform on the Aptos blockchain with IPFS storage*
 
