@@ -66,7 +66,7 @@ To become the leading global platform for secure, interoperable, and user-owned 
 ## 🖥️ Off-Chain Components
 
 ### 🌐 Frontend
-- **Tech Stack**: React + Chakra UI
+- **Tech Stack**: React
 - **Features**:
   - Medical record dashboard
   - File upload interface
@@ -94,36 +94,15 @@ To become the leading global platform for secure, interoperable, and user-owned 
 
 ---
 
-## 🧪 Technical Details
-
-### File Storage
-
-* Files are uploaded to IPFS via Pinata service
-* File hashes are stored on the Aptos blockchain
-* Original files can be retrieved using IPFS gateways
-
-### Upload Process
-
-1. File is uploaded to backend server
-2. Backend uploads file to IPFS via Pinata
-3. Real IPFS hash is returned to frontend
-4. IPFS hash is stored on blockchain
-5. File can be downloaded using the IPFS hash
-
-### Download Process
-
-1. Fetch file from IPFS using multiple gateways
-2. Extract filename from response headers or MIME type
-3. Create blob URL for browser download
-4. Trigger download with appropriate filename
-5. Clean up blob URL to prevent memory leaks
-
-### Error Handling
-
-* Graceful handling of IPFS fetch failures
-* User-friendly error messages
-* Loading states for better UX
-* Multi-gateway fallback for reliability
+## 🚀 Tech Stack
+| Layer         | Tools/Tech                  |
+| ------------- | --------------------------- |
+| Blockchain    | Aptos + Move                |
+| Wallet        | Petra Wallet                |
+| Frontend      | React + Chakra UI           |
+| Backend       | Node.js / Express (assumed) |
+| File Storage  | IPFS                        |
+| Communication | REST APIs                   |
 
 ---
 
@@ -227,4 +206,6 @@ npm run dev
 
 ---
 
-If you want, I can now help you format this into a **PDF**, **Notion page**, or even a **pitch deck**. Let me know!
+## Acknoledgement
+
+Built at H4B 4.0 by Team Cheap Codderz
