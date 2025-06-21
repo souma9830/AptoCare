@@ -1,6 +1,6 @@
-# MedFi - Medical Records Management App
+# APTO CARE - Decentralized Medical Record Management System
 
-A decentralized medical records management application built on Aptos blockchain with IPFS file storage.
+MedBlock is a decentralized healthcare record management system that leverages the **Aptos blockchain** and **IPFS** to securely store, manage, and verify medical records in a hybrid architecture. It ensures **data privacy, integrity, and access control** while delivering a seamless user experience.
 
 ---
 
@@ -44,46 +44,53 @@ To become the leading global platform for secure, interoperable, and user-owned 
 
 ---
 
-## ⭐ Features
+## 📌 Features
 
-### Record Management
+### 🔗 On-Chain Components (Aptos Blockchain)
+- **Smart Contracts (Move language)**:
+  - `client` contract: Manages individual medical records
+  - `manager` contract: Handles system-wide configuration and control
+- **Functionality**:
+  - Record creation and management
+  - Secure access control
+  - Data integrity using cryptographic hash verification
 
-* Upload medical records with symptoms and diagnosis
-* View all uploaded records in a table format
-* Delete records (with blockchain transaction)
-* Version control for record modifications
+### 🔐 Wallet Integration
+- Supports **Petra Wallet** for Aptos
+- Handles:
+  - Wallet connection/disconnection
+  - Transaction signing and submission
 
-### File Handling
+---
 
-* **File Upload**: Upload medical files (PDFs, images, documents) to IPFS via Pinata
-* **File Download**: Download original files from IPFS using file hashes
-* **File Preview**: Preview images directly in the app
-* **File Information**: View file type, size, and IPFS hash
+## 🖥️ Off-Chain Components
 
-### Download Functionality
+### 🌐 Frontend
+- **Tech Stack**: React + Chakra UI
+- **Features**:
+  - Medical record dashboard
+  - File upload interface
+  - Real-time wallet connection status
 
-The app now includes comprehensive file download capabilities:
+### 🧠 Backend Services
+- **File Handling**: Accepts and processes medical records
+- **IPFS Integration**: Stores files off-chain
+- **API Endpoints**: Bridges between frontend and blockchain
 
-1. **Download Button**: Each record has a green download button in the actions column
-2. **Modal Download**: Download files from the detailed record view modal
-3. **Smart Filename Detection**:
+---
 
-   * Attempts to extract original filename from IPFS metadata
-   * Falls back to MIME type-based extensions
-   * Generates descriptive filenames with file hash
-4. **File Type Support**: Supports common medical file formats:
+## 📦 Data Storage Architecture
 
-   * PDF documents (.pdf)
-   * Images (.jpg, .png, .gif)
-   * Text files (.txt)
-   * Office documents (.doc, .docx, .xls, .xlsx)
-   * Archives (.zip)
-
-### Preview Features
-
-* **Image Preview**: View images directly in the modal
-* **File Information**: Display file type and size for non-image files
-* **IPFS Link**: Direct link to view file on IPFS gateway
+- **On-Chain**:
+  - File hashes
+  - Access control metadata
+- **Off-Chain**:
+  - Actual medical files (stored on IPFS)
+- **Benefits**:
+  - ✅ Data integrity (hashes on-chain)
+  - ✅ Efficiency (large files off-chain)
+  - ✅ Security (access control on-chain)
+  - ✅ Privacy (no raw data on-chain)
 
 ---
 
