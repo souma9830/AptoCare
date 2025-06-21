@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+out/
+
+# Frontend specific
+medfi-app/frontend/.next/
+medfi-app/frontend/.vercel/
+medfi-app/frontend/.env.local
+medfi-app/frontend/.env.development.local
+medfi-app/frontend/.env.test.local
+medfi-app/frontend/.env.production.local
+medfi-app/frontend/npm-debug.log*
+medfi-app/frontend/yarn-debug.log*
+medfi-app/frontend/yarn-error.log*
+medfi-app/frontend/.vite/
+
+# Backend specific
+medfi-app/backend/.env
+medfi-app/backend/.env.*
+medfi-app/backend/__pycache__/
+medfi-app/backend/*.pyc
+medfi-app/backend/*.pyo
+medfi-app/backend/*.pyd
+medfi-app/backend/.Python
+medfi-app/backend/venv/
+medfi-app/backend/ENV/
+medfi-app/backend/.pytest_cache/
+medfi-app/backend/.coverage
+medfi-app/backend/htmlcov/
+medfi-app/backend/.tox/
+medfi-app/backend/.nox/
+medfi-app/backend/.hypothesis/
+medfi-app/backend/.sage.py
+medfi-app/backend/develop-eggs/
+medfi-app/backend/downloads/
+medfi-app/backend/eggs/
+medfi-app/backend/.eggs/
+medfi-app/backend/lib/
+medfi-app/backend/lib64/
+medfi-app/backend/parts/
+medfi-app/backend/sdist/
+medfi-app/backend/var/
+medfi-app/backend/wheels/
+medfi-app/backend/*.egg-info/
+medfi-app/backend/.installed.cfg
+medfi-app/backend/*.egg
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+.turbo 
