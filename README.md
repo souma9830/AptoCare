@@ -99,8 +99,8 @@ To become the leading global platform for secure, interoperable, and user-owned 
 | ------------- | --------------------------- |
 | Blockchain    | Aptos + Move                |
 | Wallet        | Petra Wallet                |
-| Frontend      | React + Chakra UI           |
-| Backend       | Node.js / Express (assumed) |
+| Frontend      | React                       |
+| Backend       | Node.js                     |
 | File Storage  | IPFS                        |
 | Communication | REST APIs                   |
 
