@@ -2,6 +2,9 @@
 
 Apto Care is a decentralized healthcare record management system that leverages the **Aptos blockchain** and **IPFS** to securely store, manage, and verify medical records in a hybrid architecture. It ensures **data privacy, integrity, and access control** while delivering a seamless user experience.
 
+![Built on Aptos](https://img.shields.io/badge/Built%20on-Aptos-blueviolet)
+
+
 ---
 
 ## 🚀 Mission
