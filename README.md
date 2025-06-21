@@ -125,12 +125,12 @@ To become the leading global platform for secure, interoperable, and user-owned 
 2. **Configure Backend**:
 
    ```bash
-   cd medfi-app/backend
+   cd apto-care/backend
    npm install
    ```
 
 3. **Create Environment File**:
-   Create `.env` file in `medfi-app/backend/`:
+   Create `.env` file in `apto-care/backend/`:
 
    ```env
    PINATA_API_KEY=your_pinata_api_key_here
@@ -147,7 +147,7 @@ To become the leading global platform for secure, interoperable, and user-owned 
 ### Frontend Setup
 
 ```bash
-cd medfi-app/frontend
+cd apto-care/frontend
 npm install
 npm run dev
 ```
@@ -172,7 +172,7 @@ npm run dev
 
 ### "Backend server is not running"
 
-* Make sure backend is started: `cd medfi-app/backend && npm start`
+* Make sure backend is started: `cd apto-care/backend && npm start`
 * Check if port 3001 is available
 * Verify `.env` file exists with Pinata API keys
 
