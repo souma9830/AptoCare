@@ -1,6 +1,6 @@
 # APTO CARE - Decentralized Medical Record Management System
 
-MedBlock is a decentralized healthcare record management system that leverages the **Aptos blockchain** and **IPFS** to securely store, manage, and verify medical records in a hybrid architecture. It ensures **data privacy, integrity, and access control** while delivering a seamless user experience.
+Apto Care is a decentralized healthcare record management system that leverages the **Aptos blockchain** and **IPFS** to securely store, manage, and verify medical records in a hybrid architecture. It ensures **data privacy, integrity, and access control** while delivering a seamless user experience.
 
 ---
 
@@ -206,6 +206,6 @@ npm run dev
 
 ---
 
-## Acknoledgement
+## Acknowledgement
 
 Built at H4B 4.0 by Team Cheap Codderz
