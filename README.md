@@ -211,4 +211,4 @@ npm run dev
 
 ## Acknowledgement
 
-Built at H4B 4.0 by Team Cheap Codderz
+Built at CosmoHack by Team AstraX
